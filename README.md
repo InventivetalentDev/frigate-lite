@@ -2,6 +2,8 @@
 
 A small native macOS viewer for [Frigate](https://frigate.video) cameras, made to stay open on a spare monitor all day without slowing the Mac down.
 
+> **Unofficial.** This is an independent project that works with Frigate NVR. It is not made, sponsored or endorsed by Frigate, Inc. "Frigate" is a trademark of Frigate, Inc.
+
 ## Build and run
 
 Needs macOS 14 or later and the Xcode command line tools (Swift 6).
@@ -100,3 +102,7 @@ Dev-only flags:
 | `Settings.swift` | UserDefaults and Keychain |
 | `SettingsWindow.swift` | SwiftUI settings form |
 | `AppDelegate.swift` | Menus, startup, dev snapshot hooks |
+
+## License
+
+MIT, see [LICENSE](LICENSE).
